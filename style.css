@@ -70,6 +70,7 @@
 }
 
 .asterisco{
+    
     color: red;
     font-size: 19px;
     margin-right: 3px ;
@@ -106,9 +107,58 @@
     margin: 10px;        
 }
 
-#genero label{
+#genero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;   
+    color: rgb(102, 102, 102);    
+}
 
-    font-size: 17px;
+#tipoGenero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;   
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 20px;    
+}
+
+#dataNasc{
+
+    display: flex;
+    flex-direction: row;
+}
+
+#dataNascB{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    
+}
+
+#dataNascB > input{
+
+    border: 1px solid rgb(102, 102, 102);
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;     
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+#cpf{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+
 }
 
 

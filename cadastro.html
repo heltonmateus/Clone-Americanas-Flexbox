@@ -23,7 +23,7 @@
 </div>
 
     <div id="campo">
-    <h5 class="asterisco">*</h5><h5>Campos obrigatórios</h5>
+    <h5 class="asterisco">*</h5><p>Campos obrigatórios</p>
     </div>
 
 
@@ -31,33 +31,50 @@
 
 
     <div id="nome">
-
-    <label>*nome completo</label> <br>
-    <input type="text" name="nome" class="" id=""/>
-    
+    <label class="asterisco">*</label>nome completo
+    <input type="text" name="nome" class="" id=""/>    
     </div>
 
 
-    <div id="genero">
-    <label>*gênero</label><br>
-    pra gente te conhecer um pouquinho melhor :) <br> <br>
 
+    <div id="genero">
+    <label class="asterisco">*</label>gênero
+    </div>
+    <p> pra gente te conhecer um pouquinho melhor :)</p>
+
+    <div id="tipoGenero">
     <input type="radio" name="feminino">feminino
     <input type="radio" name="Masculino">masculino
     <input type="radio" name="nd">não informar
     </div>
+    
  
 
-    <label>*data de nascimento</label><br>
-    necessário pra identificar a maioridade, no formato DD/MM/AAAA <br><br>
-    <input type="date" name="data_nascimento" id="">
+    <div id="dataNasc">
+    <label >*</label> data de nascimento    
+    </div>
+    <div id="dataNascB" >
+    <p> necessário pra identificar a maioridade, no formato DD/MM/AAAA</p> 
+    <input type="date"  name="data_nascimento"  placeholder="__/__/____">    
+    </div>
 
-    <br><br>
 
-    <label>*CPF</label><br>
-    necessário pra emissão de Notas Fiscais <br><br>
+
+    <div id="cpf">
+    <label class="asterisco">*</label><p>CPF</p>
+
+    <p> necessário pra emissão de Notas Fiscais </p>
     <input type="text" name="cpf" id="">
+    </div>
+
+
+
     <br><br>
+
+
+
+
+
 
     <a href="https://www.americanas.com.br">é pessoa juridica? Conheça a americanas empressas </a>
     <br><br>
