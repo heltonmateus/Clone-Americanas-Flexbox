@@ -76,15 +76,6 @@
     margin-right: 3px ;
 }
 
-/*
-#nome{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center ;
-}
-*/
 
 #pagina{
 
@@ -96,39 +87,65 @@
     color: rgb(102, 102, 102);
 }
 
+#nome{
+    font-size: 17px;  
+    font-family: Arial, Helvetica, sans-serif;  
+
+}
 
 #nome > input{
 
     border: 1px solid rgb(102, 102, 102);
     border-radius: 8px;
     padding: 10px;
-    padding-right: 120%;
+    padding-right: 68%;
     padding-bottom: 19px;
-    margin: 10px;        
+    margin-top: 10px; 
+    margin-bottom: 30px;
+       
 }
+
+
+
 
 #genero{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;   
-    color: rgb(102, 102, 102);    
+    color: rgb(102, 102, 102);  
+    font-size: 17px;  
+    font-family: Arial, Helvetica, sans-serif;
+   
+
 }
 
 #tipoGenero{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;   
-    margin-top: 15px;
+    margin-top: 10px;
+    font-size: 17px;  
+    font-family: Arial, Helvetica, sans-serif; 
     margin-bottom: 30px;
-    font-size: 20px;    
+  
 }
+
+input[type="radio"] {
+
+    height:20px;
+    width:20px;
+    vertical-align: middle;
+}
+
+
 
 #dataNasc{
 
     display: flex;
     flex-direction: row;
+    font-size: 17px;  
+    font-family: Arial, Helvetica, sans-serif;  
+
+
+    
 }
 
 #dataNascB{
@@ -150,15 +167,24 @@
     text-align: center;     
     margin-bottom: 30px;
     margin-top: 15px;
+
 }
 
-#cpf{
+#cpf > label{
+    font-size: 17px;  
+    font-family: Arial, Helvetica, sans-serif;  
+}
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
+#cpf > input {
 
+    border: solid 1px rgb(102, 102, 102); 
+    border-radius: 8px;
+    padding: 10px;
+    padding-right: 68%;
+    padding-bottom: 19px;
+    margin-top: 10px; 
+    margin-bottom: 30px;
+    
 }
 
 
