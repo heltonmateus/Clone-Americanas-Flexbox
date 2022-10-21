@@ -180,12 +180,126 @@ input[type="radio"] {
     border: solid 1px rgb(102, 102, 102); 
     border-radius: 8px;
     padding: 10px;
-    padding-right: 68%;
+    padding-right: 1px;
     padding-bottom: 19px;
     margin-top: 10px; 
-    margin-bottom: 30px;
-    
+    margin-bottom: 10px;    
 }
+
+#pergunta{
+    font-family: Arial, Helvetica, sans-serif;  
+    color: rgb(102, 102, 102);
+    margin-bottom: 30px;    
+}
+
+
+#telefone{
+    font-size: 17px;  
+    font-family: Arial, Helvetica, sans-serif;  
+    margin-bottom: 30px;    
+
+}
+
+#telefone > p{
+    font-size: 14px;  
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+#telefone > input{
+
+    border: solid 1px rgb(102, 102, 102); 
+    border-radius: 8px;
+    padding: 10px;
+    padding-right: 1px;
+    padding-bottom: 19px;
+    margin-top: 10px; 
+    margin-bottom: 2px;    
+}
+
+#email{
+    font-size: 17px;  
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-bottom: 30px; 
+}
+
+#email > p{
+    font-size: 14px;  
+
+}
+
+#email > input{
+
+    border: solid 1px rgb(102, 102, 102); 
+    border-radius: 8px;
+    padding: 10px;
+    padding-right: 40%;
+    padding-bottom: 19px;
+    margin-top: 10px; 
+    margin-bottom: 2px;    
+}
+
+
+#senha{
+
+    font-size: 17px;  
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-bottom: 30px; 
+}
+
+#senha > p{
+    font-size: 14px;  
+}
+
+#senha > input{
+
+    border: solid 1px rgb(102, 102, 102); 
+    border-radius: 8px;
+    padding: 10px;
+    padding-right: 20%;
+    padding-bottom: 19px;
+    margin-top: 10px; 
+    margin-bottom: 2px;    
+}
+
+#compartilheDados{
+
+   
+    font-size: 17px;  
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-bottom: 10px; 
+}
+
+#criar{
+
+    border-radius: 8px;
+    padding: 10px;
+    padding-right: 50%;
+    padding-bottom: 19px;
+    margin-top: 10px; 
+    margin-bottom: 2px;
+    background-color: red;
+    text-align: 30px;
+    font-size: 17px;  
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+#crie{
+
+    text-align: center;
+    font-size: 17px;  
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: red;
+    padding-left: 180%;
+    padding-top: 10px;
+
+}
+
+
+
+
+
+
 
 
 
