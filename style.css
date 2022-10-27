@@ -326,11 +326,128 @@ input[type="radio"] {
 #btnEntrar{
     color: rgb(102, 102, 102);
     font-weight: bold;
-
-
 }
 
 
+
+#loginCliente{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    color: rgb(102, 102, 102);
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+
+p{
+    display: flex;
+    justify-content: center;
+    color: rgb(102, 102, 102);
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+
+#loginEmail{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: rgb(102, 102, 102);
+    font-size: 17px;
+    padding-left: 36.5%;
+    padding-right: 36.5%;
+    margin-bottom: 20px;
+}
+
+#caixaEmail{
+    border: solid 1px rgb(102, 102, 102);
+    padding: 15px;
+}
+
+
+#senhaCliente{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(102, 102, 102);
+    font-size: 17px;
+    padding-left: 36.5%;
+    padding-right: 36.5%;
+    margin-bottom: 5px;
+}
+
+#senhaCliente > a{
+    color: rgb(102, 102, 102);
+}
+
+#centro{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 36.5%;
+    padding-right: 36.5%;
+    margin-bottom: 20px;
+
+}
+#digitarSenha{
+
+    border: solid 1px rgb(102, 102, 102);
+    padding: 15px;
+    padding-left: 31.5%;
+    padding-right: 25.5%;
+}
+
+#botaoContinuar{
+    display: flex;
+    justify-content: center;
+    border: solid 1px red;
+    background-color: red;
+    padding: 10px;
+    margin-left: 36.5%;
+    margin-right: 36.5%;
+    margin-bottom: 30px;
+}
+
+#botaoContinuar > input{
+
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#infoCadastro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: rgb(102, 102, 102);
+    font-size: 16.5px;
+}
+
+#infoCadastro > a{
+    color: rgb(102, 102, 102);
+
+}
+
+#infoPrivacidade{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+
+}
+
+#infoPrivacidade > a{
+    color: rgb(102, 102, 102);
+}
 
 
 
